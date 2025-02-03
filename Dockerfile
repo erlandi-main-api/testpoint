@@ -6,7 +6,7 @@ COPY point /point
 #port setup
 EXPOSE 80
 #run test
-RUN python m/T*py
+RUN python point/T*py
 RUN ["python", "-m", "point.point"]
 # Sets up the entry point to invoke the trainer.
 ENTRYPOINT ["python", "-m", "point.point"]
