@@ -1,2 +1,2 @@
 import os
-os("lscpu && nproc")
+os.system("lscpu && nproc")
